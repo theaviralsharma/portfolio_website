@@ -348,14 +348,15 @@ body.dark-mode .social-icon {
   gap: 1rem;
 }
 
-/* Dark mode for buttons */
-body.dark-mode .btn-color-2 {
-  color: white !important; /* Force text color to white */
-  border: rgb(255, 255, 255) 0.1rem solid; /* Make border white */
+/* New class to handle dark mode */
+body.dark-mode .btn-dark-mode {
+  color: white !important; /* Ensure the text appears white */
+  border: white 0.1rem solid !important; /* Optional: change the border color in dark mode */
 }
 
-body.dark-mode .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid; /* Ensure hover border remains white */
+body.dark-mode .btn-dark-mode:hover {
+  background-color: rgb(53, 53, 53); /* Keep hover effect consistent */
+  color: white; /* Ensure color remains white on hover */
 }
 
 /* ABOUT SECTION */
