@@ -522,6 +522,10 @@ article .icon {
   height: 2.5rem;
 }
 
+body.dark-mode p a {
+  color: white !important; /* Force text color to white in dark mode */
+}
+
 /* FOOTER SECTION */
 
 footer {
