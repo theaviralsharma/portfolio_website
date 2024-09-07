@@ -143,6 +143,11 @@ a:hover {
   cursor: default;
 }
 
+/* Add this new rule to handle dark mode */
+body.dark-mode ul li a {
+  color: white !important; /* Force text color to white in dark mode */
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
