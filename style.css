@@ -412,6 +412,11 @@ body.dark-mode .btn-dark-mode:hover {
   margin: auto 0;
 }
 
+/* Dark mode styling for the arrow icon */
+body.dark-mode .icon.arrow {
+  filter: brightness(0) invert(1); /* Inverts the color to white for dark mode */
+}
+
 body.dark-mode h3 {
   color: black !important; /* Force text color to white in dark mode */
 }
