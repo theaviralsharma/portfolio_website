@@ -522,6 +522,11 @@ article .icon {
   height: 2.5rem;
 }
 
+/* Default link color */
+.contact-link {
+  color: #fff; /* Light color for dark mode */
+}
+
 /* FOOTER SECTION */
 
 footer {
