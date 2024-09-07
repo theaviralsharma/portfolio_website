@@ -295,6 +295,11 @@ section {
   height: 2rem;
 }
 
+/* Dark mode only for social media icons */
+body.dark-mode .social-icon {
+  filter: brightness(0) invert(1); /* Make the icons white in dark mode */
+}
+
 /* BUTTONS */
 
 .btn-container {
