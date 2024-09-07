@@ -228,6 +228,10 @@ body.dark-mode ul li a {
   transform: none;
 }
 
+body.dark-mode .hamburger-icon{
+  filter: brightness(0) invert(1); /* Make the icons white in dark mode */
+}
+
 /* SECTIONS */
 
 section {
