@@ -343,6 +343,16 @@ section {
   gap: 1rem;
 }
 
+/* Dark mode for buttons */
+body.dark-mode .btn-color-2 {
+  color: white !important; /* Force text color to white */
+  border: rgb(255, 255, 255) 0.1rem solid; /* Make border white */
+}
+
+body.dark-mode .btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid; /* Ensure hover border remains white */
+}
+
 /* ABOUT SECTION */
 
 #about {
