@@ -13,6 +13,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #profile {
+    position: static;
+  }
   #desktop-nav {
     display: none;
   }
