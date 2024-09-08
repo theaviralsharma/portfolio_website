@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+@font-face {
+  font-family: Founder;
+  src: url(./assets/FoundersGroteskCondensed-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -251,7 +256,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   gap: 5rem;
   height: 80vh;
 }
@@ -549,4 +554,71 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Loader */
+#main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#top{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  overflow: hidden;
+}
+
+body.dark-mode #top{
+  background-color: black !important; /* Force text color to white in dark mode */
+}
+
+#center{
+  width: 100%;
+  height: 100vh;
+}
+
+#bottom{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  overflow: hidden;
+}
+
+body.dark-mode #bottom{
+  background-color: black !important; /* Force text color to white in dark mode */
+}
+
+#main #top-h{
+  font-family: Founder;
+  font-size: 22vw;
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  bottom: 50%;
+}
+
+body.dark-mode #top-h{
+  color: white !important; /* Force text color to white in dark mode */
+}
+
+#main #bottom-h{
+  font-family: Founder;
+  font-size: 22vw;
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  top: -5% !important;
+}
+
+body.dark-mode #bottom-h{
+  color: white !important; /* Force text color to white in dark mode */
 }
