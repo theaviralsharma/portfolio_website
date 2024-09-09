@@ -10,6 +10,20 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
+const toggle = document.getElementById('darkmode-toggle-phone');
+    const body = document.body;
+
+    // Event listener for the toggle switch
+    toggle.addEventListener('change', () => {
+        if (toggle.checked) {
+            // Dark mode
+            body.classList.add('dark-mode');
+        } else {
+            // Light mode
+            body.classList.remove('dark-mode');
+        }
+    });
+
 // var tl = gsap.timeline({scrollTrigger:{
 //   trigger: "#main",
 //   start: "50% 50%",
