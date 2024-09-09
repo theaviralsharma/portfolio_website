@@ -183,7 +183,7 @@ body.dark-mode ul li a {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 1;
+  right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
