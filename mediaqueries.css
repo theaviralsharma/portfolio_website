@@ -1,11 +1,11 @@
-@media screen and (max-width: 3456px) {
+/* @media screen and (max-width: 3456px) {
   #top{
     display: none;
   }
   #bottom{
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 1400px) {
   #profile {
@@ -19,12 +19,12 @@
   #projects {
     height: fit-content;
   }
-  #top{
+/*   #top{
     display: none;
   }
   #bottom{
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -63,12 +63,12 @@
   .about-containers {
     margin-top: 0;
   }
-  #top{
+/*   #top{
     display: none;
   }
   #bottom{
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
@@ -125,10 +125,10 @@
   .text-container {
     text-align: justify;
   }
-  #top{
+/*   #top{
     display: none;
   }
   #bottom{
     display: none;
-  }
+  } */
 }
