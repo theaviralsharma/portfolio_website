@@ -565,7 +565,7 @@ footer p {
 }
 
 /* Loader */
-#main{
+/* #main{
   width: 100%;
   height: 100vh;
   position: relative;
@@ -629,4 +629,4 @@ body.dark-mode #top-h{
 
 body.dark-mode #bottom-h{
   color: white !important;
-}
+} */
